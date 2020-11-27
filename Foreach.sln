@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "Foreach", "Foreach\Foreach.dtproj", "{9E9248F1-8AFB-4C8B-B48F-58749258CEA1}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "analisis", "analisis\", "{2BEC414F-8B2A-4A78-97D8-7F3A264FD541}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_49708"
+		Debug.AspNetCompiler.PhysicalPath = "analisis\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_49708\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_49708"
+		Release.AspNetCompiler.PhysicalPath = "analisis\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_49708\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "49708"
+		SlnRelativePath = "analisis\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "api_analisis", "api_analisis\api_analisis.csproj", "{22D2FFD2-DBD7-486A-AABC-BE5ACA52DC1B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Development|Any CPU = Development|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E9248F1-8AFB-4C8B-B48F-58749258CEA1}.Debug|Any CPU.ActiveCfg = Development
+		{9E9248F1-8AFB-4C8B-B48F-58749258CEA1}.Debug|Any CPU.Build.0 = Development
+		{9E9248F1-8AFB-4C8B-B48F-58749258CEA1}.Development|Any CPU.ActiveCfg = Development
+		{9E9248F1-8AFB-4C8B-B48F-58749258CEA1}.Development|Any CPU.Build.0 = Development
+		{9E9248F1-8AFB-4C8B-B48F-58749258CEA1}.Release|Any CPU.ActiveCfg = Development
+		{9E9248F1-8AFB-4C8B-B48F-58749258CEA1}.Release|Any CPU.Build.0 = Development
+		{2BEC414F-8B2A-4A78-97D8-7F3A264FD541}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BEC414F-8B2A-4A78-97D8-7F3A264FD541}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BEC414F-8B2A-4A78-97D8-7F3A264FD541}.Development|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BEC414F-8B2A-4A78-97D8-7F3A264FD541}.Development|Any CPU.Build.0 = Debug|Any CPU
+		{2BEC414F-8B2A-4A78-97D8-7F3A264FD541}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BEC414F-8B2A-4A78-97D8-7F3A264FD541}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{22D2FFD2-DBD7-486A-AABC-BE5ACA52DC1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22D2FFD2-DBD7-486A-AABC-BE5ACA52DC1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22D2FFD2-DBD7-486A-AABC-BE5ACA52DC1B}.Development|Any CPU.ActiveCfg = Debug|Any CPU
+		{22D2FFD2-DBD7-486A-AABC-BE5ACA52DC1B}.Development|Any CPU.Build.0 = Debug|Any CPU
+		{22D2FFD2-DBD7-486A-AABC-BE5ACA52DC1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22D2FFD2-DBD7-486A-AABC-BE5ACA52DC1B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E463750A-4892-43A6-A222-F387C98981BB}
+	EndGlobalSection
+EndGlobal
